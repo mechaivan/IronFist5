@@ -20,7 +20,13 @@ pendiente (ver `docs/desarrollo/backlog.md`, sección "Ghidra").
 ## Qué se espera encontrar aquí en el futuro
 
 - `mapa-funciones-ntsc-u.csv` (o `.toml`): mapa de funciones exportado para
-  `ps2xAnalyzer`/`ps2xRecomp`.
+  `ps2xAnalyzer`/`ps2xRecomp`, revisado para no incluir bytes propietarios.
 - Notas de cada función identificada manualmente, enlazando al hallazgo
-  `TK5-XXXX` correspondiente en `research/hallazgos/`.
+  `TK5-XXXX`, `DW-XXXX` o `RECOMP-XXXX` correspondiente.
 - Registro de si se encontraron símbolos `.mdebug`/STABS y qué cubrieron.
+- Versiones exactas de Ghidra, la extensión y PS2Recomp usadas.
+- Comandos reproducibles que reciban el ELF desde una ruta local externa.
+
+El mapa de funciones no demuestra por sí solo la semántica de una función.
+Las interpretaciones deben quedar en un hallazgo con evidencia y nivel de
+confianza.

@@ -1,8 +1,24 @@
-# Registro de hallazgos (TK5-XXXX)
+# Registro de hallazgos
 
 Índice de todos los hallazgos documentados. Cada fila enlaza al expediente
-completo con evidencia, fuente y nivel de confianza. Ver la plantilla en
-`docs/investigacion/metodologia.md`.
+completo con evidencia, fuente y nivel de confianza. Ver la plantilla y las
+reglas de familias en `docs/investigacion/metodologia.md`.
+
+## Familias y siguiente ID
+
+Las secuencias son independientes y no se reutilizan:
+
+| Familia | Siguiente ID | Uso |
+|---|---:|---|
+| `TK5-` | `TK5-0020` | Hechos específicos de Tekken 5 y sus builds |
+| `DW-` | `DW-0001` | Devil Within |
+| `PS2-` | `PS2-0001` | Hardware y comportamiento de PS2 |
+| `RECOMP-` | `RECOMP-0001` | PS2Recomp y recompilación |
+| `ASSET-` | `ASSET-0001` | Formatos y análisis de assets sin distribuirlos |
+| `MEM-` | `MEM-0001` | Memoria, direcciones y estados observados |
+
+Los identificadores provisionales de preguntas (`DW-Qxxx`) no son hallazgos
+y no consumen esta numeración.
 
 | ID | Resumen | Versión | Confianza |
 |---|---|---|---|
@@ -28,9 +44,13 @@ completo con evidencia, fuente y nivel de confianza. Ver la plantilla en
 
 ## Cómo añadir un hallazgo nuevo
 
-1. Usa el siguiente número disponible (consulta la última entrada de esta tabla).
-2. Crea `research/hallazgos/TK5-XXXX.md` con la plantilla de
+1. Elige la familia correcta y usa su siguiente número disponible en la
+   tabla anterior.
+2. Crea `research/hallazgos/<FAMILIA>-XXXX.md` con la plantilla de
    `docs/investigacion/metodologia.md`.
-3. Añade la fila correspondiente a esta tabla.
+3. Añade la fila correspondiente a esta tabla o crea el índice de la familia
+   si aún no existe.
 4. Si el hallazgo cambia una conclusión anterior, edita el hallazgo antiguo
    para reflejar la corrección (no lo borres) y referencia el nuevo ID.
+5. No uses un prefijo para ocultar una afirmación no verificada: el nivel de
+   confianza y la evidencia siguen siendo obligatorios.

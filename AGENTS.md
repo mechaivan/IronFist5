@@ -1,7 +1,7 @@
-# AGENTS.md — Reglas permanentes del proyecto Tekken 5 Native
+# AGENTS.md — Reglas permanentes del proyecto IronFist 5
 
 Este archivo define las reglas de trabajo para **cualquier agente humano o
-artificial** que contribuya a este repositorio. No es opcional. Si una
+artificial** que contribuya a **IronFist 5**. No es opcional. Si una
 contribución viola estas reglas, debe corregirse antes de aceptarse.
 
 Este proyecto es de **investigación e ingeniería inversa de larga duración**.
@@ -39,7 +39,8 @@ commit, una URL, un hash, un log. "Lo leí en un foro" es una fuente válida
 
 Ningún descubrimiento importante vive solo en la cabeza del agente o en el
 historial de chat. Si es relevante, se documenta en `research/hallazgos/`
-con un identificador `TK5-XXXX` siguiendo la plantilla de
+con un identificador de la familia correspondiente (`TK5-XXXX`, `DW-XXXX`,
+`PS2-XXXX`, `RECOMP-XXXX`, `ASSET-XXXX` o `MEM-XXXX`) siguiendo la plantilla de
 `docs/investigacion/metodologia.md`.
 
 ## Regla 4 — Reproducibilidad

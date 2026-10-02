@@ -1,4 +1,4 @@
-# Contribuir a Tekken 5 Native
+# Contribuir a IronFist 5
 
 Gracias por tu interés en este proyecto de investigación e ingeniería
 inversa. Antes de contribuir, lee **obligatoriamente** `AGENTS.md`: define
@@ -11,7 +11,8 @@ propietarios).
 1. ¿Tu cambio es una afirmación técnica sobre el funcionamiento de Tekken
    5? Si es así, debe venir con un nivel de confianza explícito (ver
    `docs/investigacion/metodologia.md`) y, si es relevante, un hallazgo
-   nuevo en `research/hallazgos/` con el siguiente ID disponible.
+   nuevo en `research/hallazgos/` con el siguiente ID disponible de la familia correspondiente (`TK5-`, `DW-`,
+   `PS2-`, `RECOMP-`, `ASSET-` o `MEM-`).
 2. ¿Tu cambio reutiliza código externo? Comprueba su licencia primero y
    regístrala en `docs/investigacion/licencias.md` antes de incluir nada.
 3. ¿Tu cambio incluye algún archivo extraído del juego (ISO, ELF, assets,
