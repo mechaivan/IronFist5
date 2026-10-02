@@ -169,8 +169,7 @@ Registro completo de licencias: `docs/investigacion/licencias.md`.
   (qué automatiza y qué tendremos que construir).
 - `docs/investigacion/emulacion.md` — PCSX2/Play! como herramientas de
   investigación.
-- `docs/investigacion/proyectos-similares.md` — God Hand Decomp, N64Recomp,
-  Zelda64Recomp, y otros.
+- `docs/investigacion/proyectos-similares.md` — God Hand Decomp y otros.
 - `docs/investigacion/herramientas-comunidad.md` — TekkenMovesetExtractor,
   Noesis, csplitb, etc.
 - `docs/investigacion/licencias.md` — Registro de licencias externas.
@@ -307,12 +306,6 @@ pistas de investigación. Su documentación completa está en
 `docs/investigacion/herramientas-comunidad.md` y en los hallazgos
 correspondientes.
 
-- **[N64Recomp](https://github.com/N64Recomp/N64Recomp)** (MIT) /
-  **[Zelda64Recomp](https://github.com/Zelda64Recomp/Zelda64Recomp)**
-  (GPL-3.0) — referencia metodológica de recompilación estática en
-  consola (plataforma N64, no PS2); PS2Recomp declara inspirarse en
-  N64Recomp. No se prevé reutilizar su código
-  ([TK5-0013](research/hallazgos/TK5-0013.md)).
 - **[God Hand Decomp](https://github.com/LucasPicoli/god-hand-decomp)** —
   referencia metodológica de decompilación por matching en PS2 (otro
   juego y otro estudio). Licencia **no verificada**: no se reutiliza
