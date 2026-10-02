@@ -271,29 +271,63 @@ propietario.
 
 ## Créditos
 
+Esta sección lista únicamente los proyectos y fuentes cuyo uso directo o
+cuya atribución está respaldada por la documentación de este repositorio
+(ver `docs/investigacion/licencias.md`). IronFist 5 **no incorpora código
+vendorizado, submódulos ni binarios** de ninguno de ellos: son
+dependencias externas previstas o herramientas ejecutadas localmente por
+cada colaborador (ver "Estado de integración en IronFist 5" en
+`docs/investigacion/licencias.md`).
+
 - **[PS2Recomp](https://github.com/ran-j/PS2Recomp)** (ran-j y
-  contribuidores, GPL-3.0) — la herramienta de recompilación estática
-  central de la visión del proyecto, e inspiración directa de su
-  viabilidad.
-- **[N64Recomp](https://github.com/N64Recomp/N64Recomp)** /
-  **[Zelda64Recomp](https://github.com/Zelda64Recomp/Zelda64Recomp)** —
-  referencia metodológica pionera de la recompilación estática en consola.
+  contribuidores, GPL-3.0) — recompilador estático ELF→C++ y su runtime;
+  pieza central de la visión del proyecto. Uso previsto: dependencia
+  externa **no vendorizada** para la futura fase de recompilación.
 - **[ghidra-emotionengine-reloaded](https://github.com/chaoticgd/ghidra-emotionengine-reloaded)**
-  (chaoticgd, Apache-2.0) y el original
+  (chaoticgd, Apache-2.0) — soporte R5900/PS2 (MMI, VU0 macro, STABS)
+  para Ghidra, instalado como extensión externa. Su antecedente, el
+  original
   [ghidra-emotionengine](https://github.com/beardypig/ghidra-emotionengine)
-  (beardypig) — soporte R5900/PS2 para Ghidra.
-- **[God Hand Decomp](https://github.com/LucasPicoli/god-hand-decomp)** —
-  referencia metodológica de decompilación por matching en PS2.
-- **[TekkenMovesetExtractor](https://github.com/Kiloutre/TekkenMovesetExtractor)**
-  (Kiloutre, GPL-3.0) — herramienta de la comunidad de Tekken, en
-  evaluación.
-- **[redump.org](http://redump.org)** — hashes de disco verificados que
-  anclan la identificación de versiones.
+  (beardypig), se cita como referencia histórica; su licencia está
+  **pendiente de verificación** (`docs/investigacion/licencias.md`).
 - **PCSX2 Team** ([PCSX2](https://github.com/PCSX2/pcsx2), GPL-3.0) —
-  herramienta de investigación de referencia.
-- La comunidad de parches de PS2 (nemesis2000, elhecht y otros
-  documentados en [TK5-0009](research/hallazgos/TK5-0009.md)) — pistas de
-  ingeniería inversa.
+  emulador usado **solo como herramienta de investigación** (depuración y
+  volcados de memoria sobre la copia legal de cada colaborador).
+- **[redump.org](http://redump.org)** — fuente primaria de los hashes de
+  disco verificados que anclan la identificación de versiones
+  ([TK5-0002](research/hallazgos/TK5-0002.md),
+  [TK5-0018](research/hallazgos/TK5-0018.md)).
+
+## Referencias metodológicas y de investigación
+
+Los proyectos y fuentes de esta sección **no son dependencias ni código
+incorporado**: se han estudiado como referencia metodológica o como
+pistas de investigación. Su documentación completa está en
+`docs/investigacion/proyectos-similares.md`,
+`docs/investigacion/herramientas-comunidad.md` y en los hallazgos
+correspondientes.
+
+- **[N64Recomp](https://github.com/N64Recomp/N64Recomp)** (MIT) /
+  **[Zelda64Recomp](https://github.com/Zelda64Recomp/Zelda64Recomp)**
+  (GPL-3.0) — referencia metodológica de recompilación estática en
+  consola (plataforma N64, no PS2); PS2Recomp declara inspirarse en
+  N64Recomp. No se prevé reutilizar su código
+  ([TK5-0013](research/hallazgos/TK5-0013.md)).
+- **[God Hand Decomp](https://github.com/LucasPicoli/god-hand-decomp)** —
+  referencia metodológica de decompilación por matching en PS2 (otro
+  juego y otro estudio). Licencia **no verificada**: no se reutiliza
+  código ([TK5-0012](research/hallazgos/TK5-0012.md)).
+- **[TekkenMovesetExtractor](https://github.com/Kiloutre/TekkenMovesetExtractor)**
+  (Kiloutre, GPL-3.0, archivado por su autor) — herramienta de la
+  comunidad de Tekken **en evaluación**: su aplicabilidad a Tekken 5 PS2
+  retail no está confirmada y no hay ningún uso previsto confirmado, por
+  lo que no es una dependencia del proyecto
+  ([TK5-0011](research/hallazgos/TK5-0011.md)).
+- Comunidad de parches de PS2 (nemesis2000, elhecht y otros autores
+  documentados en [TK5-0009](research/hallazgos/TK5-0009.md)) — fuente de
+  investigación comunitaria: sus direcciones de memoria son **pistas
+  PENDIENTES DE VERIFICACIÓN** por este proyecto, no dependencias ni
+  datos confirmados.
 
 ## Contacto y contribuciones
 
