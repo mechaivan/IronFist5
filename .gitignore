@@ -1,0 +1,41 @@
+# Datos propietarios que NUNCA deben entrar al repositorio (Regla 8 de AGENTS.md)
+*.iso
+*.bin
+*.cue
+*.chd
+*.mdf
+*.mds
+*.img
+*.elf
+*.irx
+*.rom
+*.bios
+*.nud
+*.tm2
+*.tim2
+SCPH*.bin
+
+# Artefactos de análisis (regenerables, pueden embeber datos del juego)
+*.gpr
+*.rep
+*.sav
+*.sstate
+*.pnach
+*.memdump
+*.dmp
+
+# Build outputs
+build/
+out/
+dist/
+target/
+__pycache__/
+*.pyc
+*.o
+*.exe
+
+# Editores / SO
+.vscode/
+.idea/
+*.swp
+.DS_Store
