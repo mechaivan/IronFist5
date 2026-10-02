@@ -170,6 +170,15 @@ Uso previsto: Ninguno confirmado; documentados solo como contexto de
   ecosistema (TK5-0016)
 ```
 
+## Estado de integración en IronFist 5
+
+A fecha de esta revisión, el repositorio no incluye código vendorizado,
+submódulos ni binarios de PS2Recomp, Ghidra, PCSX2 u otra herramienta
+externa. Las herramientas listadas son dependencias de investigación
+previstas o referencias documentales, no componentes distribuidos por este
+repositorio. Cualquier integración futura debe registrar la versión, licencia
+y forma de distribución antes de añadir código o binarios.
+
 ## Implicación para la licencia de este propio repositorio
 
 Dado que la visión a largo plazo de este proyecto (ver `README.md`) depende

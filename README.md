@@ -174,8 +174,12 @@ Registro completo de licencias: `docs/investigacion/licencias.md`.
   queda pendiente.
 - `docs/ingenieria-inversa/elf-analisis.md` — Qué sabemos y qué falta por
   determinar del ELF.
+- `docs/ingenieria-inversa/artefactos-y-exclusiones.md` — Qué se puede
+  versionar y qué debe permanecer local.
 - `docs/ingenieria-inversa/workflow-ghidra.md` — Procedimiento de análisis
   con Ghidra.
+- `docs/devil-within/` — Investigación separada de Devil Within: arquitectura,
+  gameplay, plan y preguntas abiertas.
 - `docs/ps2/arquitectura-ee.md` — Arquitectura PS2 y qué usa realmente
   Tekken 5 (gran parte: todavía desconocido).
 - `docs/arquitectura/decompilacion-vs-recompilacion.md` — Las cuatro
@@ -191,8 +195,9 @@ Registro completo de licencias: `docs/investigacion/licencias.md`.
 - `docs/desarrollo/incognitas.md` — Qué no sabemos todavía.
 - `docs/desarrollo/testing-diferencial.md` — Estrategia futura de
   comparación contra el juego original.
-- `research/hallazgos/` — Registro completo de hallazgos (TK5-XXXX), con
-  índice en `research/hallazgos/README.md`.
+- `research/hallazgos/` — Registro completo de hallazgos (`TK5-`, `DW-`,
+  `PS2-`, `RECOMP-`, `ASSET-` y `MEM-`), con índice en
+  `research/hallazgos/README.md`.
 
 ## Estructura del repositorio
 
@@ -212,6 +217,7 @@ ironfist5/
 │   ├── animacion/         ← sistema de animación (a desarrollar)
 │   ├── audio/             ← sistema de audio (a desarrollar)
 │   ├── gameplay/          ← sistemas de combate (a desarrollar)
+│   ├── devil-within/      ← línea de investigación independiente
 │   └── desarrollo/        ← roadmap, backlog, problemas, incógnitas, testing
 │
 ├── research/
