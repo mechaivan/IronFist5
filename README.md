@@ -1,4 +1,6 @@
-# Tekken 5 Native
+# IronFist 5
+
+**IronFist 5** es el nombre oficial de este proyecto. El objetivo técnico sigue siendo reconstruir y recompilar Tekken 5 PS2 NTSC-U de forma nativa para PC.
 
 Proyecto de **investigación, ingeniería inversa y desarrollo** con el
 objetivo a largo plazo de construir un **port nativo de Tekken 5
@@ -195,7 +197,7 @@ Registro completo de licencias: `docs/investigacion/licencias.md`.
 ## Estructura del repositorio
 
 ```text
-tekken5-native/
+ironfist5/
 ├── README.md              ← este archivo
 ├── AGENTS.md              ← reglas permanentes del proyecto
 ├── LICENSE                ← GPL-3.0
