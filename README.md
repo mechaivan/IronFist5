@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/ironfist5-logo.png" alt="IronFist 5" width="440">
+</p>
+
 # IronFist 5
 
 **IronFist 5** es el nombre oficial de este proyecto. El objetivo técnico sigue siendo reconstruir y recompilar Tekken 5 PS2 NTSC-U de forma nativa para PC.
