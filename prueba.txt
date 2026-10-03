@@ -1,6 +1,0 @@
-Archivo de prueba
-==================
-
-Este es un archivo de prueba creado por el agente de Arena.ai.
-Rama: arena/01a101df-ironfist5
-Fecha: 2026-10-03
